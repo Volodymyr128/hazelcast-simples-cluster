@@ -8,7 +8,7 @@ import java.util.Arrays;
 /**
  * Created by volodymyr.bakhmatiuk on 3/9/17.
  */
-public class Main {
+public class Server {
 
     public static void main(String[] args) throws FileNotFoundException {
         Arrays.asList(

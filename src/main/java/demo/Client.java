@@ -13,7 +13,7 @@ public class Client {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         ClientConfig config = new ClientConfig();
         config.getNetworkConfig().setAddresses(
-                Arrays.asList("localhost:5071", "localhost:5072", "localhost:5073")
+                Arrays.asList("localhost:5072", "localhost:5073")
         );
         HazelcastClient.newHazelcastClient(config);
     }
